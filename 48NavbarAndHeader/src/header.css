@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #e1caca;
+    padding: 10px;
+}
+
+.linkk h2 {
+    margin-top: 3px;
+    font-size: 35px;
+    
+}
+
+.header ul {
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+    width: auto;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.header ul li {
+    padding: 10px;
+}
+
+.header .link h2 {
+    margin: 0;
+}
+
+.header .link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.college .link {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.active{
+    font-weight: 800;
+    color: red;
+}
+
+.custom-active{
+    font-weight: 800;
+    color: red;
+}
